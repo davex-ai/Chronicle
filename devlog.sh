@@ -5,4 +5,10 @@ DEV_LOG="$HOME/dev-log.md"
 
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
 
-echo "New dev log entry" >> "$DEV_LOG"
+{
+  echo ""
+  echo "## 🧠 Dev Log — $TIMESTAMP"
+  echo "----------------------------------------"
+  echo "New dev log entry" 
+  echo ""
+} >> "$DEV_LOG"
