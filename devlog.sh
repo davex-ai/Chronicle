@@ -59,6 +59,14 @@ for arg in "$@"; do
   esac
 done
 
+# Ensure dev log file exists
+if [ ! -f "$DEV_LOG" ]; then
+  touch "$DEV_LOG"
+  echo "# Developer Log" >> "$DEV_LOG"
+  echo "Created new dev log at $DEV_LOG"
+fi
+
+
 {
   echo ""
   echo "## 🧠 Dev Log — $TIMESTAMP"
