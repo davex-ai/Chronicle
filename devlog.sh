@@ -51,6 +51,14 @@ for arg in "$@"; do
       exit 0
       ;;
 
+    --last=*)
+      LIST_ENTRIES="${arg#*=}"
+      LIST_ENTRIES=$((LIST_ENTRIES))  # ensure it's an integer
+      ;;
+    --list)
+      LIST_ENTRIES=5
+      ;;
+
     *)
       echo "Unknown option: $arg"
       echo "Run 'chronicle --help'"
