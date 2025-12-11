@@ -10,7 +10,7 @@
 
 ## Install
 ```bash
-git clone https://github.com/davex-ai/Chronicle/
+git clone https://github.com/davex-ai/Chronicle.git
 cd chronicle
 bash chronicle.sh install
 ```
@@ -104,12 +104,11 @@ source ~/.bashrc
 ```bash
 chronicle --help
 ```
-<div>
-  <h3>Tutorial Video</h3>
-  <video controls width="100%">
-    <source src="/Video Project 2.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</div>
+![Video Project 2](https://github.com/user-attachments/assets/7c95bfee-8e36-41f2-9638-58c7742e82c9)
+
+
+https://github.com/user-attachments/assets/1400ac6f-c822-427f-b5d8-0992e5f8a2e3
+
+
 
 Made with 🔥 by [Daveora](https://github.com/davex-ai)
