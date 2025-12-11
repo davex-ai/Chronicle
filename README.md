@@ -105,4 +105,7 @@ source ~/.bashrc
 chronicle --help
 ```
 
+### Tutorial Video
+![](/Video%20Project%202.mp4)
+
 Made with 🔥 by [Daveora](https://github.com/davex-ai)
