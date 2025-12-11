@@ -10,7 +10,7 @@
 
 ## Install
 ```bash
-git clone <repo_url>
+git clone https://github.com/davex-ai/Chronicle/
 cd chronicle
 bash chronicle.sh install
 ```
