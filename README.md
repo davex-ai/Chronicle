@@ -1,4 +1,10 @@
 # Chronicle — Developer Journal CLI
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Language](https://img.shields.io/badge/language-Bash-orange)
+![Last Commit](https://img.shields.io/github/last-commit/davex-ai/Chronicle)
+![Version](https://img.shields.io/badge/version-3.0.0-lightgrey)
+
 
 **A small, portable Bash tool to quickly log your developer notes with timestamps. Works on Linux, macOS, and Windows Git Bash.**
 
@@ -78,3 +84,5 @@ Or create a small .bat file to launch Chronicle:
 - Configurable editor support.
 
 - Easy installation for sharing / cloning.
+
+Made with 🔥 by [Daveora](https://github.com/davex-ai)
