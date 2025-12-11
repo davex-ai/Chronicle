@@ -85,4 +85,24 @@ Or create a small .bat file to launch Chronicle:
 
 - Easy installation for sharing / cloning.
 
+## Things To Note
+1. This Means Your  script exists but Bash can’t see it.
+
+```bash
+$ chronicle
+bash: chronicle: command not found
+```
+
+**Do the following**
+
+```bash
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+**Now test**
+```bash
+chronicle --help
+```
+
 Made with 🔥 by [Daveora](https://github.com/davex-ai)
