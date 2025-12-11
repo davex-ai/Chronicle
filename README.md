@@ -104,8 +104,12 @@ source ~/.bashrc
 ```bash
 chronicle --help
 ```
-
-### Tutorial Video
-![](/Video%20Project%202.mp4)
+<div>
+  <h3>Tutorial Video</h3>
+  <video controls width="100%">
+    <source src="/Video Project 2.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 Made with 🔥 by [Daveora](https://github.com/davex-ai)
