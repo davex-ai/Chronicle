@@ -12,7 +12,8 @@ fi
 
 OPEN_EDITOR=true
 CUSTOM_MESSAGE=""
-
+LIST_ENTRIES=0
+NUM_ENTRIES=5
 
 for arg in "$@"; do
   case "$arg" in
@@ -66,6 +67,12 @@ for arg in "$@"; do
       ;;
   esac
 done
+
+if [ "$LIST_ENTRIES" -gt 0 ]; then
+  echo "Last $LIST_ENTRIES entries in $DEV_LOG:"
+  grep '^## 🧠 Dev Log' "$DEV_LOG" | tail -n "$LIST_ENTRIES"
+  exit 0
+fi
 
 # Ensure dev log file exists
 if [ ! -f "$DEV_LOG" ]; then
