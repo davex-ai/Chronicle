@@ -104,8 +104,6 @@ source ~/.bashrc
 ```bash
 chronicle --help
 ```
-![Video Project 2](https://github.com/user-attachments/assets/7c95bfee-8e36-41f2-9638-58c7742e82c9)
-
 
 https://github.com/user-attachments/assets/1400ac6f-c822-427f-b5d8-0992e5f8a2e3
 
