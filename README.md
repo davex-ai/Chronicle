@@ -7,7 +7,7 @@
 
 
 **A small, portable Bash tool to quickly log your developer notes with timestamps. Works on Linux, macOS, and Windows Git Bash.**
-
+,
 ## Install
 ```bash
 git clone https://github.com/davex-ai/Chronicle.git
